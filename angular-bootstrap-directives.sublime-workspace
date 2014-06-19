@@ -1,0 +1,2257 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Rec",
+				"recording"
+			],
+			[
+				"f",
+				"footer"
+			],
+			[
+				"sid",
+				"sidebarView"
+			],
+			[
+				"si",
+				"sidebarView"
+			],
+			[
+				"hea",
+				"headerView"
+			],
+			[
+				"we",
+				"webapp-migration-css"
+			],
+			[
+				"ui",
+				"ui-view"
+			],
+			[
+				"contro",
+				"controlChannel"
+			],
+			[
+				"bu",
+				"bubblesNames"
+			],
+			[
+				"_h",
+				"_highlightCover"
+			],
+			[
+				"ani",
+				"animationTime"
+			],
+			[
+				"doc",
+				"documentElement"
+			],
+			[
+				"bubb",
+				"bubbleNames"
+			],
+			[
+				"bro",
+				"browserify-wrap"
+			],
+			[
+				"sa",
+				"sandbox"
+			],
+			[
+				"insta",
+				"instanceName"
+			],
+			[
+				"cons",
+				"consumer"
+			],
+			[
+				"_co",
+				"_consumption"
+			],
+			[
+				"_cu",
+				"_setCurrentConsumptionId"
+			],
+			[
+				"_set",
+				"_setCurrentConsumptionId"
+			],
+			[
+				"input",
+				"inputOverlay"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"_w",
+				"_$wrapper"
+			],
+			[
+				"d",
+				"documentSize"
+			],
+			[
+				"_$",
+				"_$wrapper"
+			],
+			[
+				"outer",
+				"outerWidth"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"is",
+				"isDocumentRoot"
+			],
+			[
+				"do",
+				"domId"
+			],
+			[
+				"curren",
+				"currentEvent"
+			],
+			[
+				"pipe",
+				"pipeName"
+			],
+			[
+				"ev",
+				"eventTypes"
+			],
+			[
+				"ge",
+				"generalType"
+			],
+			[
+				"e",
+				"elem"
+			],
+			[
+				"dis",
+				"dispatchedEvent"
+			],
+			[
+				"di",
+				"dispatchedEvent"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"glo",
+				"globalKey"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"tra",
+				"trackingScript"
+			],
+			[
+				"exp",
+				"exports"
+			],
+			[
+				"v",
+				"visualisations"
+			],
+			[
+				"initia",
+				"_initialData"
+			],
+			[
+				"rese",
+				"resetVisualizations"
+			],
+			[
+				"san",
+				"sandbox"
+			],
+			[
+				"events",
+				"eventsFilter"
+			],
+			[
+				"und",
+				"undefined"
+			],
+			[
+				"run",
+				"runType"
+			],
+			[
+				"cu",
+				"cursorFinalPosition"
+			],
+			[
+				"data",
+				"dataCursor"
+			],
+			[
+				"_get",
+				"_getNextIndex"
+			],
+			[
+				"ma",
+				"mainPipeline"
+			],
+			[
+				"s",
+				"sandboxDocument"
+			],
+			[
+				"curre",
+				"currentEvent"
+			],
+			[
+				"roll",
+				"rollCallback"
+			],
+			[
+				"mai",
+				"mainPipeline"
+			],
+			[
+				"next",
+				"nextTick"
+			],
+			[
+				"set",
+				"setImmediate"
+			],
+			[
+				"by",
+				"byMessageChannel"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"cur",
+				"currentStep"
+			],
+			[
+				"eve",
+				"events"
+			],
+			[
+				"ro",
+				"rollingPage"
+			],
+			[
+				"da",
+				"dataConsumer"
+			],
+			[
+				"get",
+				"getCurrent"
+			],
+			[
+				"_ma",
+				"_maxIndex"
+			],
+			[
+				"Ar",
+				"ArrayIterator"
+			],
+			[
+				"daa",
+				"dataCursor"
+			],
+			[
+				"dat",
+				"dataCursor"
+			],
+			[
+				"_c",
+				"_current"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"arg",
+				"arguments"
+			],
+			[
+				"A",
+				"ArrayIterator"
+			],
+			[
+				"_e",
+				"_ended"
+			],
+			[
+				"_en",
+				"_endCallsQueue"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"fa",
+				"facade"
+			],
+			[
+				"se",
+				"semaphore"
+			],
+			[
+				"_ac",
+				"_activeResumeFacade"
+			],
+			[
+				"la",
+				"lastTime"
+			],
+			[
+				"in",
+				"instanceName"
+			],
+			[
+				"_a",
+				"_activeConsumer"
+			],
+			[
+				"index",
+				"startIndex"
+			],
+			[
+				"_data",
+				"_dataCursor"
+			],
+			[
+				"_",
+				"_activeConsumer"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"consume",
+				"consumeFn"
+			],
+			[
+				"r",
+				"require"
+			],
+			[
+				"tran",
+				"translate"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"last",
+				"lastIndex"
+			],
+			[
+				"tab",
+				"tabFoundHandler"
+			],
+			[
+				"visib",
+				"visiblePage"
+			],
+			[
+				"pa",
+				"pagesQueue"
+			],
+			[
+				"las",
+				"lastUserEvent"
+			],
+			[
+				"vii",
+				"visiblePage"
+			],
+			[
+				"visi",
+				"visiblePage"
+			],
+			[
+				"cle",
+				"clearImmediate"
+			],
+			[
+				"sw",
+				"switchToPage"
+			],
+			[
+				"nex",
+				"nextCallback"
+			],
+			[
+				"names",
+				"namespace"
+			],
+			[
+				"page",
+				"pagesQueue"
+			],
+			[
+				"new",
+				"newTabLoaded"
+			],
+			[
+				"fir",
+				"firstEvent"
+			],
+			[
+				"emit",
+				"emitEvent"
+			],
+			[
+				"current",
+				"currentPage"
+			],
+			[
+				"ste",
+				"steps"
+			],
+			[
+				"sta",
+				"startTime"
+			],
+			[
+				"fi",
+				"firstEvent"
+			],
+			[
+				"first",
+				"firstEvent"
+			],
+			[
+				"star",
+				"started"
+			],
+			[
+				"st",
+				"started"
+			],
+			[
+				"on",
+				"onPageHandler"
+			],
+			[
+				"finis",
+				"finished"
+			],
+			[
+				"searc",
+				"searchPage"
+			],
+			[
+				"fin",
+				"finished"
+			],
+			[
+				"user",
+				"userEventsInStep"
+			],
+			[
+				"curr",
+				"currentEvent"
+			],
+			[
+				"max",
+				"maxi"
+			],
+			[
+				"event",
+				"eventTypes"
+			],
+			[
+				"pae",
+				"pageSwitches"
+			],
+			[
+				"pag",
+				"pageSwitch"
+			],
+			[
+				"ini",
+				"initialData"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"Er",
+				"ErrorReporter"
+			],
+			[
+				"text",
+				"textInputs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.controller.js",
+			"settings":
+			{
+				"buffer_size": 407,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.template.html",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp/app/views/content--project__recordings.html",
+			"settings":
+			{
+				"buffer_size": 6973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html",
+			"settings":
+			{
+				"buffer_size": 1550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/common/services/i18n/i18n.service.js",
+			"settings":
+			{
+				"buffer_size": 1347,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html",
+			"settings":
+			{
+				"buffer_size": 906,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/main.module.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"err",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"bea",
+				"Javascript Beautify"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"for",
+				"Format Code"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"HTM",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"html",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"errr",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"er",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"error",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"sh",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"erro",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"hi",
+				"Local History: Compare"
+			],
+			[
+				"hist",
+				"Local History: Browse"
+			],
+			[
+				"boo",
+				"Bookmarks: Toggle"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"mark",
+				"Bookmarks: Toggle"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"hg",
+				"SublimeHg: Open CLI"
+			],
+			[
+				"hg p",
+				"Hg: Push"
+			],
+			[
+				"hg: com",
+				"Hg: Quick Commit"
+			],
+			[
+				"histor",
+				"Local History: Browse"
+			],
+			[
+				"hio",
+				"Local History: Open"
+			],
+			[
+				"loc",
+				"Local History: Browse"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"",
+				"AngularJS: Toggle - Disable Built-in Directive Completions"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"min",
+				"Minify Javascript"
+			],
+			[
+				"show",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"forma",
+				"Format Code"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"scri",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fora",
+				"Format Code"
+			],
+			[
+				"format",
+				"Format Code"
+			],
+			[
+				"FORM",
+				"Format: Javascript"
+			],
+			[
+				"merci",
+				"Set Syntax: Mercurial Log"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefix",
+				"Preferences: Prefixr Key Bindings – User"
+			],
+			[
+				"isntall",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"brose",
+				"Preferences: Browse Packages"
+			],
+			[
+				"m",
+				"Minify Javascript"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"fom",
+				"Format: Javascript"
+			],
+			[
+				"beau",
+				"SassBeautify"
+			],
+			[
+				"taks",
+				"Tasks: New"
+			],
+			[
+				"minif",
+				"Minify Javascript to file"
+			],
+			[
+				"mini",
+				"Minify Javascript"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"save",
+				"Project: Save As"
+			]
+		],
+		"width": 584.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/sidebar__inner/project__one__sidebar__inner.view.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/recording__list.state.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/um-front.sublime-project",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/sidebar/project__one__sidebar.view.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/sidebar/root__sidebar.view.controller.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/sidebar/root__sidebar.view.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/sidebar/directives/sidebar/root__sidebar__sidebar-sidebar.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/sidebar/directives/sidebar/root__sidebar__sidebar-sidebar.directive.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/sidebar/project__one__sidebar.view.controller.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/header/root__header.view.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/sidebar/root__sidebar.view.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/header/directives/toggle-sidebar/root__header__toggle-sidebar.directive.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/sidebar/directives/root__sidebar.directives.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/sidebar/directives/sidebar/spec/root__header__toggle-sidebar.spec.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/footer/spec/footer.spec.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/content/spec/content.spec.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/sidebar/spec/sidebar.spec.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/sidebar/spec/header.spec.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/header/directives/project-menu/header__project-menu.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/header/directives/install-tracking-script/header__install-tracking-script.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/header/header.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/sidebar/sidebar.controller.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/sidebar/sidebar.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/app.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/sidebar/sidebar.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/common/helpers/features/features.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/content/content.controller.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/content/content.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/footer/footer.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/footer/footer.controller.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/footer/footer.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/content/content.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/views/content/modules/project.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/index.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp/app/app.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/style/app.scss",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp/app/styles/main.scss",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/Gruntfile/webapp-migration/dev/tasks/tasks.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/Gruntfile/webapp-migration/dev/watch.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/Gruntfile/webapp-migration/dev/build.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/gruntfile.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/main.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/translatedata.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/pubsub.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/copy of vr-player/scripts/player/main.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/package.json",
+		"/home/e.napierala/NetBeansProjects/user-metrics/scripts/front/build-app.sh",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/index.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/indexer/importantEventsNumerator.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/nuvr/recording/shower/helpers/domhelper.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vbackgroundtab.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vlog.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vgears.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/helpers/icons.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vtouch.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/helpers/SvgHelper.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/event-type.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/helpers/DrawingHelper.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/styles/main.scss",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/images/base64.sh",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/images/icons.json",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/images/copy of base64.sh",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/images/base64.json",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/images/base64.txt",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/sandbox-manager.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/Visualization.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vmouse.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vhighlighting.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/helpers/DomHelper.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vscroll.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/sandbox.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/sandbox-state-controller.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/indexer/stepsFinder.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/events_dispatcher.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/vr-player.sublime-project",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/DomId.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/vendor/grunt-browserify-wrap/package.json",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/gruntfile.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/vr-player.sublime-project",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/dispatcher.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/back/vr-node/mods/script-server.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-webapp/vr-tracker.sublime-project",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/translatedata.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/helpers/DomHelper.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/sandbox-manager.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/DataCursor.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/sandbox.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/sandbox-state-controller.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/.hgignore",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/domid.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/dom-builder.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vdom.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vresize.js",
+		"/home/e.napierala/.config/sublime-text-2/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/home/e.napierala/NetBeansProjects/usabilitytools-website/Usabilitytools-Website/usabilitytools.com_wordpress_v2/wordpress/wp-content/themes/UsabilityTools/js/signup.js",
+		"/home/e.napierala/NetBeansProjects/usabilitytools/aggregator/dashboard/src/main/webapp/scripts/mods/track-signup.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/emit_domautoroll.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/emit_snapshot.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/cursor_domdata.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/indexer/backgroundTabsFinder.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/indexer/currentlyVisiblePage.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/indexer/pagesIndexCreator.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/vis/vdomchanges.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/eventtypes.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/show.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/DataCursor.js",
+		"/home/e.napierala/Desktop/random_survey_1_in_10_v2.html",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/ArrayIterator.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/AsyncIterator.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/emit_playback.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/nuvr.log",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/mods/dom-observer.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib/KeyMap.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib/Translate.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/package.json",
+		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/mods/script-server.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/target/tracker.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib/absURL.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib/translatedata.js",
+		"/opt/devel/user-metrics/vr-tracker/tracker.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/conf.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/lib/pubsub.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/app.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/KeyMap.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/mods/settings.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/mods/session.js",
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/mods/rip-semaphore.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/views/sidebar/directives, *.js",
+			"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app, *.js",
+			"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/apps/webapp-migration, *.js",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/",
+			"~/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib",
+			"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/, -*/node_modules/*, -*/target/*, -*/lib/*",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/, -*/node_modules/*, -*/target/*",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/, -*/node_modules/*",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/, -node_modules",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player",
+			"<open folders>",
+			"/home/e.napierala/bin/",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts",
+			"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps",
+			"/home/e.napierala/Downloads/Wirtualna Polska - www.wp.pl_files,*.js",
+			"/home/e.napierala/Downloads/Wirtualna Polska - www.wp.pl_files",
+			"/home/e.napierala/NetBeansProjects/usabilitytools-scripts/enviroment/common/developer-toolz",
+			"",
+			"include.min.js",
+			"",
+			"include.js",
+			"-*include.js",
+			"",
+			"-*include.js",
+			"-libinclude.js",
+			"libinclude.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"a",
+			"span",
+			"div",
+			"Header",
+			"header",
+			"sidebarEnabled",
+			"content",
+			"sidebar",
+			"header",
+			"projectMenu-directive",
+			"installTrackingScript-directive",
+			"Footer",
+			"Sidebar",
+			"content",
+			"Sidebar",
+			"sidebar",
+			"Sidebar",
+			"header",
+			"sidebar",
+			"footer",
+			"sidebar",
+			"footer",
+			"header",
+			"sidebarView",
+			"div",
+			"header__sample-directive",
+			"header",
+			"MHeader",
+			"setImmediate",
+			"request-anim",
+			"scripts/",
+			"tagElement",
+			".is.click",
+			"is.click",
+			"touchBubbleSize",
+			"circle",
+			"backgroundColor: false",
+			"background: false",
+			"background",
+			"size: touchBubbleSize",
+			"top",
+			"Swipe",
+			"left",
+			"down",
+			"Swipe",
+			"swipe",
+			"proto",
+			"toFilter",
+			"colorFilter",
+			"\"",
+			"sass",
+			"css",
+			"dev",
+			"animationTime",
+			"getViewportRect",
+			"targetWindow",
+			"dom.",
+			"_$wrapper",
+			"$wrapper.$wrapper",
+			"document",
+			"data",
+			"isStart",
+			"top",
+			"_identify",
+			"1972",
+			"tracker",
+			"\n    ",
+			"      ",
+			"     ",
+			"    ",
+			"tracker",
+			"currentStep",
+			"snapshotRequest",
+			"_activeC",
+			"_activeConsumer",
+			"consumer",
+			"redirect",
+			"Redirect",
+			"redirect",
+			"redirect\nredirect",
+			"redirect\nredirect(",
+			"redirect",
+			"config",
+			"waiter",
+			"targetDocument",
+			"_$wrapper",
+			"<div style=\\\"padding: 0px; margin: 0px; border: 0px; display: block; box-sizing: content-box; width: 0px;\\\"></div>",
+			"$iframe",
+			"data",
+			"eventtypes');",
+			"pipeName:",
+			".pipeName",
+			"data",
+			"currentEvent",
+			"verboseData",
+			"K",
+			"W['-=:' + K]",
+			"this",
+			"setImmediate(",
+			"iterator._delay",
+			"getElementPos(",
+			"_.",
+			"underscore",
+			"'-.NUVR'",
+			"_",
+			"player",
+			"vr-player",
+			"tracker",
+			"productiondetect.js",
+			"Overlord",
+			"scopeOutGlobals",
+			"    +",
+			"+",
+			"logconf",
+			"VRNODE",
+			"APP_NUVR",
+			"NUVR_PID",
+			"exitsTooltip",
+			"exits",
+			"=",
+			"respondents",
+			"description",
+			"name:",
+			"name",
+			"exit",
+			"respondents",
+			"stat",
+			"stats"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"Sidebar",
+			"sidebar",
+			"footer",
+			"content",
+			"sidebar",
+			"project-menu",
+			"install-tracking-script",
+			"Content",
+			"Footer",
+			"footer",
+			"Content",
+			"backgroundColor: null",
+			"event-type');",
+			"pipelineName:",
+			".pipelineName",
+			"production-detect.js",
+			"",
+			"\"s\": \"i\",",
+			"\"s\": \"a\"",
+			"\"t\"",
+			"\"pa\"",
+			"\"pr\"",
+			"\"s\"",
+			"\"v\"",
+			"\"r\"",
+			"\"n\"",
+			"\"i\"",
+			"/* use asap() if you don't care about animation smoothness; or write some engine for batch drawing with requestAnimationFrame or something! */\nsetImmediate(",
+			"setImmediate(",
+			"tabFoundHandler",
+			".lastEvent",
+			".lasttEvent",
+			".firstEvent",
+			"underscore",
+			"asap(_spawnNext);",
+			"setImmediate(_spawnNext);",
+			"inputOver",
+			"$boxShadowOffset-right-default",
+			"$boxShadowOffset-left-default",
+			"$boxShadowBlur-small",
+			"$boxShadowBlur-default",
+			"</body>",
+			"\"R6P",
+			"\\\"",
+			"\\\\\"",
+			"\\\"",
+			"\\\\'",
+			"\\'",
+			"cogIsionFRMTitlebar",
+			".",
+			".cogIsionTitlebar",
+			"respondents",
+			".ct-analyzer",
+			"'",
+			"_rebuildIndexes",
+			"_addToCanvas",
+			"_getI18n",
+			"_hideLoader",
+			"_showLoader",
+			"_hideMarkerMenu",
+			"_showMarkerMenu",
+			"_buildCanvas",
+			"_removeFromCanvas",
+			"$dragged",
+			"map",
+			"index",
+			"dragged",
+			"markerMenu.hide",
+			"markerMenu.show",
+			"",
+			"$SEP$SEP$SEP",
+			"<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum enim laoreet ligula ullamcorper consectetur. Fusce aliquam mi sit amet velit pharetra eleifend.</li>",
+			"Node.ELEMENT_NODE",
+			"// window.modules.markAsParsed(",
+			"define",
+			"window.modules",
+			"p.classNames."
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.controller.js",
+					"settings":
+					{
+						"buffer_size": 407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "3ea42752",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.template.html",
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "a1561b18",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp/app/views/content--project__recordings.html",
+					"settings":
+					{
+						"buffer_size": 6973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "776cebf8",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html",
+					"settings":
+					{
+						"buffer_size": 1550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1476,
+								1476
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "87afd35f",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/common/services/i18n/i18n.service.js",
+					"settings":
+					{
+						"buffer_size": 1347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "a43b0f4c",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html",
+					"settings":
+					{
+						"buffer_size": 906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "ed31eb82",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/main.module.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"buffer_scroll_name": "c91e311d",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 46.0
+	},
+	"output.find_results":
+	{
+		"height": 213.0
+	},
+	"output.hg":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"header.view.te",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html"
+			],
+			[
+				"sidebar.view.t",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/views/sidebar__inner/project__one__sidebar__inner.view.template.html"
+			],
+			[
+				"i18n",
+				"apps/webapp-migration/app/common/services/i18n/i18n.service.js"
+			],
+			[
+				"header.view.tem",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html"
+			],
+			[
+				"recording__list",
+				"apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html"
+			],
+			[
+				"mixin",
+				"mixins.scss"
+			],
+			[
+				"fbhe",
+				"libfbhelper.js"
+			],
+			[
+				"mixi",
+				"mixins.scss"
+			],
+			[
+				"std",
+				"libstd.js"
+			],
+			[
+				"incl",
+				"include.js"
+			],
+			[
+				"inclu",
+				"libinclude.js"
+			],
+			[
+				"effec",
+				"libeffects.js"
+			],
+			[
+				"inc",
+				"include.js"
+			],
+			[
+				"ui",
+				"libui.js"
+			],
+			[
+				"effe",
+				"libeffects.js"
+			],
+			[
+				"tem",
+				"libtemplate.js"
+			],
+			[
+				"aja",
+				"libajax.js"
+			],
+			[
+				"help",
+				"libfbhelper.js"
+			],
+			[
+				"eff",
+				"libeffects.js"
+			],
+			[
+				"helper",
+				"libfbhelper.js"
+			],
+			[
+				"ic",
+				"include.js"
+			],
+			[
+				"in",
+				"include.js"
+			],
+			[
+				"i",
+				"include.js"
+			],
+			[
+				"lib",
+				"libtemplate.js"
+			],
+			[
+				"hel",
+				"libfbhelper.js"
+			],
+			[
+				"helpe",
+				"libfbhelper.js"
+			],
+			[
+				"incli",
+				"include.js/include.js"
+			],
+			[
+				"fbhel",
+				"libfbhelper.js"
+			],
+			[
+				"aj",
+				"libajax.js"
+			],
+			[
+				"hele",
+				"libfbhelper.js"
+			],
+			[
+				"ajax",
+				"libajax.js"
+			],
+			[
+				"temp",
+				"libtemplate.js"
+			],
+			[
+				"libinc",
+				"libinclude.js"
+			],
+			[
+				"edi",
+				"libeditor.js"
+			],
+			[
+				"",
+				"libstd.js"
+			],
+			[
+				"edit",
+				"libeditor.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 516.0,
+	"status_bar_visible": true
+}

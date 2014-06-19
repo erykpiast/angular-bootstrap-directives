@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="angular-boostrap-directives-example">
+    <head>
+        <meta charset="UTF-8">
+        <title>angular-boostrap-directives example page</title>
+
+        <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
+
+        <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+    </head>
+    <body ng-controller="exampleCtrl">
+       
+        <ui-button
+            ng-click="dupa()"
+            class="btn-primary">
+            Dupa
+        </ui-button>
+
+        <ui-button
+            label="Dupa"
+            icon="filters"
+            variant="primary"
+            action="dupa()"
+        ></ui-button>
+
+    </body>
+</html>

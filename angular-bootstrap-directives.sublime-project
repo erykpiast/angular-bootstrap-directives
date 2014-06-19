@@ -1,0 +1,36 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*~",
+				"*~~",
+				"*.jpg",
+				"*.png",
+				"*.pdf",
+				"*.odt",
+				"*.gif",
+				"*.ico",
+				"*.project",
+				"*.sublime-project",
+				"*.sublime-workspace",
+				"*.txt",
+				"*.rb",
+				".*"
+			],
+			"folder_exclude_patterns":
+			[
+				"icons",
+				".sass-cache",
+				".crt",
+				".tmp",
+				"_build",
+				"node_modules",
+				"bower_components"
+			],
+			"name": "angular-bootstrap-directives",
+			"path": "~/angular-bootstrap-directives"
+		}
+	]
+}
