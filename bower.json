@@ -1,0 +1,23 @@
+{
+  "name": "angular-bootstrap-directives",
+  "version": "0.0.1",
+  "homepage": "https://github.com/erykpiast/angular-bootstrap-directives",
+  "authors": [
+    "Eryk Napierała <eryk.piast@gmail.com>"
+  ],
+  "description": "Angular directives for Twitter Bootstrap components",
+  "main": "src main.module.js",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "directives"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "angular-bootstrap-directives",
+  "version": "0.0.1",
+  "description": "Angular directives for Twitter Bootstrap components",
+  "main": "gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erykpiast/angular-bootstrap-directives.git"
+  },
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "directives"
+  ],
+  "author": "Eryk Napierała",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erykpiast/angular-bootstrap-directives/issues"
+  },
+  "homepage": "https://github.com/erykpiast/angular-bootstrap-directives"
+}
