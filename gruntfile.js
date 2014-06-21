@@ -1,10 +1,9 @@
 module.exports = function (grunt) {
 
     grunt.registerTask('default', [ 'jshint', 'build', 'watch:src' ]);
-    grunt.registerTask('build', [ 'clean', 'concat:all' ]);
+    grunt.registerTask('build', [ 'clean:dist', 'concat:all' ]);
     grunt.registerTask('release', [ 'build', 'uglify:release' ]);
-    grunt.registerTask('test', [ 'karma:unit', 'watch:test' ]);
-
+    grunt.registerTask('test', [ 'build', 'karma:unit', 'watch:test' ]);
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -15,10 +14,14 @@ module.exports = function (grunt) {
             },
             spec: 'src/**/*.spec.js'
         },
-        clean: ['<%= dist %>/*'],
+        clean: {
+            dist: [ '<%= config.dist %>/*' ]
+        },
         karma: {
             unit: {
-                options: 'karma.conf.js'
+                options: {
+                    configFile: 'test/karma.conf.js'
+                }
             }
         },
         concat:{

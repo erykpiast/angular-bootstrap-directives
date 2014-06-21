@@ -13,7 +13,7 @@ module.exports = function (config) {
 
         reporters: [ 'dots' ],
         colors: true,
-        logLevel: config.LOG_DEBUG,
+        logLevel: config.LOG_INFO,
         
         port: 9876,
         autoWatch: false,
