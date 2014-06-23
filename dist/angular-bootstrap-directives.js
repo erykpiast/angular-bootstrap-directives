@@ -300,17 +300,17 @@ describe('button directive test', function () {
     });
 
     it('Should produce button visible only if some variable in scope', function() {
-        $rootScope.visible = false;
+        $rootScope.visible = true;
 
-        var element = $compile('<ui-button ng-show="visible">Remove</ui-button>')($rootScope);
+        var element = $compile('<ui-button ng-hide="visible">Remove</ui-button>')($rootScope);
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn" ng-show="visible" ng-transclude="">' +
+        expect(element.html()).toBe('<button type="button" class="btn ng-hide" ng-hide="visible" ng-transclude="">' +
             '<span class="ng-scope">Remove</span>' +
         '</button>');
 
-        expect(element.css('display')).toBe('none');
+        expect(element.attr('class').split(' ').indexOf('ng-hide')).toBeGreaterThan(-1);
 
         delete $rootScope.visible;
     });
