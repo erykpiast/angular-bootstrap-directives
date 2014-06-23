@@ -72,7 +72,7 @@ angular
             'type': 'button',
             'class': 'btn'
         });
-        var reservedAttrs = [ '$$element', '$attr', 'transclude', 'icon', 'label', 'variant', 'size' ];
+        var reservedAttrs = [ '$$element', '$attr', 'icon', 'label', 'variant', 'size' ];
         var sizes = {
             'extra small': 'xs',
             'small': 'sm',
@@ -110,15 +110,14 @@ angular
                     '<',
                     tag,
                     ' ' + attrsToRewrite,
-                    _if(tAttrs.transclude, ' ng-transclude'),
                     '>',
+                    _if(tElement[0].childNodes.length, tElement[0].innerHTML),
                     _if(tAttrs.icon, '<i class="glyphicon glyphicon-' + tAttrs.icon + '"></i>'),
                     _if(tAttrs.label, '<span>' + tAttrs.label + '</span>'),
                     '</',
                     tag,
                     '>'
                 ].join('');
-            },
-            transclude: true
+            }
         };
     });

@@ -18,7 +18,7 @@ describe('button directive test', function () {
         $rootScope.$digest();
 
         // Check that the compiled element contains the templated content
-        expect(element.html()).toBe('<button type="button" class="btn" ng-transclude=""></button>');
+        expect(element.html()).toBe('<button type="button" class="btn"></button>');
     });
 
 
@@ -55,12 +55,12 @@ describe('button directive test', function () {
 
 // transclude >>
     it('Should produce simple button with label from transcluded content', function() {
-        var element = $compile('<ui-button transclude>Button label</ui-button>')($rootScope);
+        var element = $compile('<ui-button>Button label</ui-button>')($rootScope);
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn" ng-transclude="">' +
-            '<span class="ng-scope">Button label</span>' + 
+        expect(element.html()).toBe('<button type="button" class="btn">' +
+            'Button label' + 
         '</button>');
 
     });
@@ -69,16 +69,16 @@ describe('button directive test', function () {
         $rootScope.label = 'Remove';
         $rootScope.icon = 'remove';
 
-        var element = $compile('<ui-button transclude="true">' +
+        var element = $compile('<ui-button>' +
             '<i class="glyphicon glyphicon-{{ icon }}"></i>' +
             '{{ label }}' +
         '</ui-button>')($rootScope);
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn" ng-transclude="">' +
+        expect(element.html()).toBe('<button type="button" class="btn ng-binding">' +
             '<i class="glyphicon glyphicon-remove"></i>' +
-            '<span class="ng-binding ng-scope">Remove</span>' +
+            'Remove' +
         '</button>');
 
         delete $rootScope.label;
@@ -88,7 +88,7 @@ describe('button directive test', function () {
     it('Should produce button with span element containing label and icon', function() {
         $rootScope.showSpan = true;
 
-        var element = $compile('<ui-button transclude="true">' +
+        var element = $compile('<ui-button>' +
             '<span ng-if="showSpan">' +
                 '<i class="glyphicon glyphicon-remove"></i>' +
                 'Remove' +
@@ -97,7 +97,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn" ng-transclude="">' +
+        expect(element.html()).toBe('<button type="button" class="btn">' +
             '<!-- ngIf: showSpan -->' +
                 '<span ng-if="showSpan" class="ng-scope">' +
                     '<i class="glyphicon glyphicon-remove"></i>' +
@@ -112,7 +112,7 @@ describe('button directive test', function () {
     it('Should produce button without content removed by directive evaluated in parent scope', function() {
         $rootScope.showSpan = false;
 
-        var element = $compile('<ui-button transclude="true">' +
+        var element = $compile('<ui-button>' +
             '<span ng-if="showSpan">' +
                 '<i class="glyphicon glyphicon-remove"></i>' +
                 'Remove' +
@@ -121,7 +121,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn" ng-transclude="">' +
+        expect(element.html()).toBe('<button type="button" class="btn">' +
             '<!-- ngIf: showSpan -->' +
         '</button>');
        
@@ -136,8 +136,8 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn btn-default btn-sm" ng-transclude="">' +
-            '<span class="ng-scope">Remove</span>' +
+        expect(element.html()).toBe('<button type="button" class="btn btn-default btn-sm">' +
+            'Remove' +
         '</button>');
     });
 
@@ -146,8 +146,8 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn btn-default btn-sm" ng-transclude="">' +
-            '<span class="ng-scope">Remove</span>' +
+        expect(element.html()).toBe('<button type="button" class="btn btn-default btn-sm">' +
+            'Remove' +
         '</button>');
     });
 // << size and variant
@@ -162,8 +162,8 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn" ng-click="action($event)" ng-transclude="">' +
-            '<span class="ng-scope">Remove</span>' +
+        expect(element.html()).toBe('<button type="button" class="btn" ng-click="action($event)">' +
+            'Remove' +
         '</button>');
 
         element.click();
@@ -182,8 +182,8 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn ng-hide" ng-hide="visible" ng-transclude="">' +
-            '<span class="ng-scope">Remove</span>' +
+        expect(element.html()).toBe('<button type="button" class="btn ng-hide" ng-hide="visible">' +
+            'Remove' +
         '</button>');
 
         expect(element.attr('class').split(' ').indexOf('ng-hide')).toBeGreaterThan(-1);
