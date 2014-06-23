@@ -8,7 +8,7 @@ angular
         angular.extend(Attrs.prototype, {
             toString: function() {
                 return Object.keys(this).map(function(attr) {
-                    return attr + ('undefined' !== typeof this[attr] ? '="' + this[attr] + '"' : '');
+                    return this._dasherize(attr) + ('undefined' !== typeof this[attr] ? '="' + this[attr] + '"' : '');
                 }, this).join(' ');
             },
             concat: function(attrs) {
@@ -36,6 +36,11 @@ angular
                 }, this);
 
                 return new Attrs(res);
+            },
+            // transform attribute ngTransclude to ng-transclude
+            _dasherize: function(s) {
+                // @source https://github.com/jprichardson/string.js
+                return s.replace(/[_\s]+/g, '-').replace(/([A-Z])/g, '-$1').replace(/-+/g, '-').toLowerCase();
             }
         });
 

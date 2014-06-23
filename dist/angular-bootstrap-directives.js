@@ -8,7 +8,7 @@ angular
         angular.extend(Attrs.prototype, {
             toString: function() {
                 return Object.keys(this).map(function(attr) {
-                    return attr + ('undefined' !== typeof this[attr] ? '="' + this[attr] + '"' : '');
+                    return this._dasherize(attr) + ('undefined' !== typeof this[attr] ? '="' + this[attr] + '"' : '');
                 }, this).join(' ');
             },
             concat: function(attrs) {
@@ -36,6 +36,11 @@ angular
                 }, this);
 
                 return new Attrs(res);
+            },
+            // transform attribute ngTransclude to ng-transclude
+            _dasherize: function(s) {
+                // @source https://github.com/jprichardson/string.js
+                return s.replace(/[_\s]+/g, '-').replace(/([A-Z])/g, '-$1').replace(/-+/g, '-').toLowerCase();
             }
         });
 
@@ -270,5 +275,45 @@ describe('button directive test', function () {
         '</button>');
     });
 // << size and variant
+
+// passing directives down >>
+    it('Should produce button with action on click', function() {
+        var clicked;
+
+        $rootScope.action = function() { clicked = true; };
+
+        var element = $compile('<ui-button ng-click="action($event)">Remove</ui-button>')($rootScope);
+
+        $rootScope.$digest();
+
+        expect(element.html()).toBe('<button type="button" class="btn" ng-click="action($event)" ng-transclude="">' +
+            '<span class="ng-scope">Remove</span>' +
+        '</button>');
+
+        element.click();
+
+        $rootScope.$digest();
+
+        expect(clicked).toBe(true);
+
+        delete $rootScope.action;
+    });
+
+    it('Should produce button visible only if some variable in scope', function() {
+        $rootScope.visible = false;
+
+        var element = $compile('<ui-button ng-show="visible">Remove</ui-button>')($rootScope);
+
+        $rootScope.$digest();
+
+        expect(element.html()).toBe('<button type="button" class="btn" ng-show="visible" ng-transclude="">' +
+            '<span class="ng-scope">Remove</span>' +
+        '</button>');
+
+        expect(element.css('display')).toBe('none');
+
+        delete $rootScope.visible;
+    });
+// << passing directives down
 
 });

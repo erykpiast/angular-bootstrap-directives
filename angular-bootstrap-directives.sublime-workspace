@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"dire",
+				"verbose_directive	AngularJS"
+			],
+			[
+				"di",
+				"$sceDelegateProvider	AngularJS"
+			],
+			[
 				"Rec",
 				"recording"
 			],
@@ -145,10 +153,6 @@
 			],
 			[
 				"dis",
-				"dispatchedEvent"
-			],
-			[
-				"di",
 				"dispatchedEvent"
 			],
 			[
@@ -510,71 +514,11 @@
 			[
 				"Er",
 				"ErrorReporter"
-			],
-			[
-				"text",
-				"textInputs"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.controller.js",
-			"settings":
-			{
-				"buffer_size": 407,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.template.html",
-			"settings":
-			{
-				"buffer_size": 72,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp/app/views/content--project__recordings.html",
-			"settings":
-			{
-				"buffer_size": 6973,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html",
-			"settings":
-			{
-				"buffer_size": 1550,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/common/services/i18n/i18n.service.js",
-			"settings":
-			{
-				"buffer_size": 1347,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html",
-			"settings":
-			{
-				"buffer_size": 906,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/main.module.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -582,6 +526,94 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"reub",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"look",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"rebui",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"defi",
+				"AngularJS: Look Up Definition"
+			],
+			[
+				"angular",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"angul",
+				"AngularJS: Rebuild Search Index"
+			],
+			[
+				"errr",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"lint",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sync",
+				"Package Syncing: Push Settings"
+			],
+			[
+				"synced",
+				"Package Syncing: Define Sync Folder"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublima",
+				"Sublimall: Upload"
+			],
+			[
+				"linter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"show",
+				"SublimeLinter: Show All Errors"
+			],
 			[
 				"err",
 				"SublimeLinter: Show Error List"
@@ -611,20 +643,12 @@
 				"Format Code"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"HTM",
 				"Set Syntax: HTML with mustaches"
 			],
 			[
 				"html",
 				"Set Syntax: HTML with mustaches"
-			],
-			[
-				"errr",
-				"SublimeLinter: Show Error List"
 			],
 			[
 				"ja",
@@ -679,10 +703,6 @@
 				"Bookmarks: Toggle"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"hg",
 				"SublimeHg: Open CLI"
 			],
@@ -707,16 +727,8 @@
 				"Local History: Browse"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"upper",
 				"Convert Case: Upper Case"
-			],
-			[
-				"",
-				"AngularJS: Toggle - Disable Built-in Directive Completions"
 			],
 			[
 				"lis",
@@ -725,14 +737,6 @@
 			[
 				"min",
 				"Minify Javascript"
-			],
-			[
-				"show",
-				"SublimeLinter: Show Error List"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"htm",
@@ -773,14 +777,6 @@
 			[
 				"merci",
 				"Set Syntax: Mercurial Log"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"prefix",
@@ -839,11 +835,15 @@
 				"Project: Save As"
 			]
 		],
-		"width": 584.0
+		"width": 530.0
 	},
 	"console":
 	{
-		"height": 139.0
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
 	},
 	"distraction_free":
 	{
@@ -856,8 +856,26 @@
 	},
 	"file_history":
 	[
-		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/sidebar__inner/project__one__sidebar__inner.view.template.html",
+		"/home/eryk/angular-bootstrap-directives/src/button/button.js",
+		"/home/eryk/.config/sublime-text-3/Packages/User/AngularJS-sublime-package.sublime-settings",
+		"/home/eryk/angular-bootstrap-directives/bower_components/angular-mocks/angular-mocks.js",
+		"/home/eryk/.config/sublime-text-3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/home/eryk/angular-bootstrap-directives/dist/angular-bootstrap-directives.js",
+		"/home/eryk/angular-bootstrap-directives/src/button/button.spec.js",
+		"/home/eryk/angular-bootstrap-directives/.jshintrc",
+		"/home/eryk/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/common/services/i18n/i18n.service.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp/app/views/content--project__recordings.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.template.html",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.controller.js",
+		"/home/eryk/.config/sublime-text-3/Packages/Sublimall/Sublimall.sublime-settings",
+		"/home/eryk/.config/sublime-text-3/Packages/User/Sublimall.sublime-settings",
+		"/home/eryk/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/eryk/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html",
+		"/home/eryk/angular-bootstrap-directives/src/main.module.js",
+		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/sidebar__inner/project__one__sidebar__inner.view.template.html",
 		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/recording__list.state.module.js",
 		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/um-front.sublime-project",
 		"/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/sidebar/project__one__sidebar.view.template.html",
@@ -965,29 +983,11 @@
 		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/DataCursor.js",
 		"/home/e.napierala/Desktop/random_survey_1_in_10_v2.html",
 		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/ArrayIterator.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/AsyncIterator.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/player/emit_playback.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/nuvr.log",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/mods/dom-observer.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib/KeyMap.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib/Translate.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/package.json",
-		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/mods/script-server.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/target/tracker.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib/absURL.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/lib/translatedata.js",
-		"/opt/devel/user-metrics/vr-tracker/tracker.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/conf.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/lib/pubsub.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/back/vr-node/app.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/KeyMap.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/mods/settings.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/mods/session.js",
-		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-tracker/scripts/mods/rip-semaphore.js"
+		"/home/e.napierala/NetBeansProjects/user-metrics/front/public_html/apps/vr-player/scripts/lib/AsyncIterator.js"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -1256,793 +1256,14 @@
 	"groups":
 	[
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.controller.js",
-					"settings":
-					{
-						"buffer_size": 407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								407,
-								407
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"buffer_scroll_name": "3ea42752",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/filters/recording__list__content__filters.view.template.html",
-					"settings":
-					{
-						"buffer_size": 72,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"buffer_scroll_name": "a1561b18",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp/app/views/content--project__recordings.html",
-					"settings":
-					{
-						"buffer_size": 6973,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								857,
-								857
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"buffer_scroll_name": "776cebf8",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/sub/recording/sub/list/views/content/recording__list__content.view.template.html",
-					"settings":
-					{
-						"buffer_size": 1550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1476,
-								1476
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"buffer_scroll_name": "87afd35f",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/common/services/i18n/i18n.service.js",
-					"settings":
-					{
-						"buffer_size": 1347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								253,
-								253
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"buffer_scroll_name": "a43b0f4c",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/eryk/UTC/remote/NetBeansProjects/user-metrics/front/apps/webapp-migration/app/states/root/sub/project/sub/one/views/header/project__one__header.view.template.html",
-					"settings":
-					{
-						"buffer_size": 906,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								236,
-								236
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"buffer_scroll_name": "ed31eb82",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/main.module.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"buffer_scroll_name": "c91e311d",
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -2083,9 +1304,10 @@
 	{
 		"height": 112.0
 	},
+	"project": "angular-bootstrap-directives.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -2248,10 +1470,24 @@
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 516.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

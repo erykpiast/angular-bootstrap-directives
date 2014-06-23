@@ -1,22 +1,17 @@
 {
     "globals": {
-    /* some useful functions >> */
-        "$require": true,
-        "extend": true,
-        "parseInt0": true,
-        "parseFloat0": true,
-    /* << some useful functions */
-        "_": true, // Underscore
     /* Jasmine >> */
         "describe": true,
         "it": true,
         "expect": true,
+        "beforeEach": true,
+        /* ngMock >> */
+            "module": true,
+            "inject": true,
+            "$compile": true,
+        /* << ngMock */
     /* << Jasmine */
-    /* RequireJS >> */
-        "define": true,
-        "require": true,
-        "requirejs": true
-    /* << RequireJS */
+        "angular": true
     },
     "regexdash": true,
     "browser": true,

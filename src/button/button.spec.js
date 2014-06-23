@@ -152,4 +152,44 @@ describe('button directive test', function () {
     });
 // << size and variant
 
+// passing directives down >>
+    it('Should produce button with action on click', function() {
+        var clicked;
+
+        $rootScope.action = function() { clicked = true; };
+
+        var element = $compile('<ui-button ng-click="action($event)">Remove</ui-button>')($rootScope);
+
+        $rootScope.$digest();
+
+        expect(element.html()).toBe('<button type="button" class="btn" ng-click="action($event)" ng-transclude="">' +
+            '<span class="ng-scope">Remove</span>' +
+        '</button>');
+
+        element.click();
+
+        $rootScope.$digest();
+
+        expect(clicked).toBe(true);
+
+        delete $rootScope.action;
+    });
+
+    it('Should produce button visible only if some variable in scope', function() {
+        $rootScope.visible = false;
+
+        var element = $compile('<ui-button ng-show="visible">Remove</ui-button>')($rootScope);
+
+        $rootScope.$digest();
+
+        expect(element.html()).toBe('<button type="button" class="btn" ng-show="visible" ng-transclude="">' +
+            '<span class="ng-scope">Remove</span>' +
+        '</button>');
+
+        expect(element.css('display')).toBe('none');
+
+        delete $rootScope.visible;
+    });
+// << passing directives down
+
 });
