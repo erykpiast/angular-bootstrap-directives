@@ -1,125 +1,51 @@
 // ### button.js >>
 
 angular
-    .module('angular-bootstrap-directives.button', [ ])
-    .directive('uiButton', function () {
-        function Attrs(attrs) {
-            angular.extend(this, attrs);
-        }
-
-        angular.extend(Attrs.prototype, {
-            toString: function() {
-                return Object.keys(this).map(function(attr) {
-                    return this._dasherize(attr) + ('undefined' !== typeof this[attr] ? '="' + this[attr] + '"' : '');
-                }, this).join(' ');
-            },
-            concat: function(attrs) {
-                var res = angular.extend({ }, this);
-
-                Object.keys(attrs).map(function(attrName) {
-                    var attr = attrs[attrName];
-
-                    if(this.hasOwnProperty(attrName)) {
-                        switch(attrName) {
-                            case 'class':
-                                res[attrName] = this[attrName] + ' ' + attr;
-
-                                break;
-                            case 'style':
-                                res[attrName] = this[attrName].replace(/;?$/, ';') + ' ' + attr;
-                                
-                                break;
-                            default:
-                                res[attrName] = attr;
-                        }
-                    } else {
-                        res[attrName] = attr;
-                    }
-                }, this);
-
-                return new Attrs(res);
-            },
-            // transform attribute ngTransclude to ng-transclude
-            _dasherize: function(s) {
-                // @source https://github.com/jprichardson/string.js
-                return s.replace(/[_\s]+/g, '-').replace(/([A-Z])/g, '-$1').replace(/-+/g, '-').toLowerCase();
-            }
-        });
-
-
-        function _filter(obj, fn, context) {
-            var res = { };
-
-            Object.keys(obj).forEach(function(key) {
-                if(fn.call(context, key)) {
-                    res[key] = obj[key];
-                }
-            });
-
-            return res;
-        }
-
-
-        function _if(condition, ifTrue, ifFalse) {
-            if(('undefined' !== typeof condition) && (condition !== 'false')) {
-                return ifTrue;
-            } else {
-                return ifFalse || '';
-            }
-        }
-
-
-        var tag = 'button';
-        var attrs = new Attrs({
-            'type': 'button',
-            'class': 'btn'
-        });
-        var reservedAttrs = [ '$$element', '$attr', 'icon', 'label', 'variant', 'size' ];
+    .module('angular-bootstrap-directives.button', [
+        'angular-bootstrap-directives.utils'
+    ])
+    .directive('uiButton', function (uiUtils) {
         var sizes = {
             'extra small': 'xs',
             'small': 'sm',
             'large': 'lg'
         };
+        var tag = 'button';
+        var reservedAttrs = [ '$$element', '$attr', 'icon', 'label', 'variant', 'size' ];
+        var attrs = new uiUtils.Attrs({
+            'type': 'button',
+            'class': 'btn'
+        });
+
 
         return {
             restrict: 'E',
+            replace: true,
             template: function(tElement, tAttrs) {
-                var attrsToRewrite = attrs.concat(_filter(tAttrs, function(attr) {
-                    return (reservedAttrs.indexOf(attr) === -1);
-                }));
+                var attrsToRewrite = attrs.concat(uiUtils.filterKeys(tAttrs, function(key) {
+                    return (reservedAttrs.indexOf(key) === -1);
+                }), tAttrs.variant && {
+                    'class': tAttrs.variant.split(' ').map(function(variant) {
+                        return 'btn-' + variant;
+                    }).join(' ')
+                }, tAttrs.size && {
+                    'class': 'btn-' + (sizes[tAttrs.size] || tAttrs.size) 
+                });
 
-                if(tAttrs.variant) {
-                    attrsToRewrite = attrsToRewrite.concat({
-                        'class': tAttrs.variant.split(' ').map(function(variant) {
-                            return 'btn-' + variant;
-                        }).join(' ')
-                    });
-                }
-
-                if(tAttrs.size) {
-                    attrsToRewrite = attrsToRewrite.concat({
-                        'class': 'btn-' + (sizes[tAttrs.size] || tAttrs.size) 
-                    });
-                }
-
-                // if transclude option is omitted, but neither icon and label options are set,
-                // assume that content should be transcluded
-                if(('undefined' === typeof tAttrs.transclude) && !tAttrs.icon && !tAttrs.label) {
-                    tAttrs.transclude = 'true';
-                }
-
-                return [
+                var template = [
                     '<',
                     tag,
                     ' ' + attrsToRewrite,
                     '>',
-                    _if(tElement[0].childNodes.length, tElement[0].innerHTML),
-                    _if(tAttrs.icon, '<i class="glyphicon glyphicon-' + tAttrs.icon + '"></i>'),
-                    _if(tAttrs.label, '<span>' + tAttrs.label + '</span>'),
+                    uiUtils.returnIf(tElement[0].childNodes.length, tElement[0].innerHTML),
+                    uiUtils.returnIf(tAttrs.icon, '<i class="glyphicon glyphicon-' + tAttrs.icon + '"></i>'),
+                    uiUtils.returnIf(tAttrs.label, '<span>' + tAttrs.label + '</span>'),
                     '</',
                     tag,
                     '>'
                 ].join('');
+
+                return template;
             }
         };
     });
@@ -138,5 +64,99 @@ angular
 
 
 // ### << main.js
+
+
+
+// ### utils.js >>
+
+angular
+    .module('angular-bootstrap-directives.utils', [ ])
+    .factory('uiUtils', function () {
+        function Attrs(attrs) {
+            angular.extend(this, attrs);
+        }
+
+        angular.extend(Attrs.prototype, {
+            toString: function() {
+                return Object.keys(this).map(function(attr) {
+                    // transform attribute ngTransclude to ng-transclude
+                    return dasherize(attr) + ('undefined' !== typeof this[attr] ? '="' + this[attr] + '"' : '');
+                }, this).join(' ');
+            },
+            concat: function(/* attrs... */) {
+                var attrs = Array.prototype.slice.call(arguments);
+
+                return new Attrs(this._extend.apply(this, [ angular.extend({ }, this) ].concat(attrs)));
+            },
+            _extend: extendFactory(function(key, srcValue, destValue, destHasKey) {
+                if(destHasKey) {
+                    switch(key) {
+                        case 'class':
+                            return destValue + ' ' + srcValue;
+                        case 'style':
+                            return destValue.replace(/;?$/, ';') + ' ' + srcValue;
+                        default:
+                            return srcValue;
+                    }
+                } else {
+                    return srcValue;
+                }
+            })
+        });
+
+
+        function extendFactory(processFn) {
+            return function (dest /*, src... */) {
+                Array.prototype.slice.call(arguments, 1).forEach(function(src) {
+                    if(src && ('object' === typeof src)) {
+                        Object.keys(src).forEach(function(key) {
+                            dest[key] = processFn(key, src[key], dest[key], dest.hasOwnProperty(key));
+                        });
+                    }
+                });
+            
+                return dest;
+            };
+        }
+
+
+        function filterKeys(obj, fn, context) {
+            var res = { };
+
+            Object.keys(obj).forEach(function(key) {
+                if(fn.call(context, key)) {
+                    res[key] = obj[key];
+                }
+            });
+
+            return res;
+        }
+
+
+        function returnIf(condition, ifTrue, ifFalse) {
+            if(('undefined' !== typeof condition) && (condition !== 'false')) {
+                return ifTrue;
+            } else {
+                return ifFalse || '';
+            }
+        }
+
+
+        function dasherize(s) {
+            // @source https://github.com/jprichardson/string.js
+            return s.replace(/[_\s]+/g, '-').replace(/([A-Z])/g, '-$1').replace(/-+/g, '-').toLowerCase();
+        }
+
+
+        return {
+            Attrs: Attrs,
+            extendFactory: extendFactory,
+            filterKeys: filterKeys,
+            returnIf: returnIf,
+            dasherize: dasherize
+        };
+    });
+
+// ### << utils.js
 
 

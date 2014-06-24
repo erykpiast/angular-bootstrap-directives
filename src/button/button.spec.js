@@ -2,7 +2,7 @@ describe('button directive test', function () {
     var $compile;
     var $rootScope;
 
-    beforeEach(module('angular-boostrap-directives.button'));
+    beforeEach(module('angular-bootstrap-directives.button'));
 
     beforeEach(inject(function(_$compile_, _$rootScope_){
       // The injector unwraps the underscores (_) from around the parameter names when matching
@@ -18,7 +18,7 @@ describe('button directive test', function () {
         $rootScope.$digest();
 
         // Check that the compiled element contains the templated content
-        expect(element.html()).toBe('<button type="button" class="btn"></button>');
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-scope"></button>');
     });
 
 
@@ -28,7 +28,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-scope" label="Remove" icon="remove">' +
             '<i class="glyphicon glyphicon-remove"></i>' +
             '<span>Remove</span>' +
         '</button>');
@@ -42,7 +42,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-scope" label="Remove" icon="remove">' +
             '<i class="glyphicon glyphicon-remove"></i>' +
             '<span class="ng-binding">Remove</span>' +
         '</button>');
@@ -59,7 +59,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-scope">' +
             'Button label' + 
         '</button>');
 
@@ -76,7 +76,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn ng-binding">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-binding ng-scope">' +
             '<i class="glyphicon glyphicon-remove"></i>' +
             'Remove' +
         '</button>');
@@ -97,7 +97,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-scope">' +
             '<!-- ngIf: showSpan -->' +
                 '<span ng-if="showSpan" class="ng-scope">' +
                     '<i class="glyphicon glyphicon-remove"></i>' +
@@ -121,7 +121,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-scope">' +
             '<!-- ngIf: showSpan -->' +
         '</button>');
        
@@ -136,7 +136,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn btn-default btn-sm">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn btn-default btn-sm ng-scope" variant="default" size="small">' +
             'Remove' +
         '</button>');
     });
@@ -146,7 +146,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn btn-default btn-sm">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn btn-default btn-sm ng-scope" variant="default sm">' +
             'Remove' +
         '</button>');
     });
@@ -162,7 +162,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn" ng-click="action($event)">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-scope" ng-click="action($event)">' +
             'Remove' +
         '</button>');
 
@@ -182,7 +182,7 @@ describe('button directive test', function () {
 
         $rootScope.$digest();
 
-        expect(element.html()).toBe('<button type="button" class="btn ng-hide" ng-hide="visible">' +
+        expect(element[0].outerHTML).toBe('<button type="button" class="btn ng-scope ng-hide" ng-hide="visible">' +
             'Remove' +
         '</button>');
 

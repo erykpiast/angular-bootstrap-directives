@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="angular-boostrap-directives-example">
+<html lang="en" ng-app="angular-bootstrap-directives-example">
     <head>
         <meta charset="UTF-8">
         <title>angular-boostrap-directives example page</title>
@@ -8,21 +8,15 @@
         <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
 
         <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+        <script type="text/javascript" src="../dist/angular-bootstrap-directives.js"></script>
     </head>
     <body ng-controller="exampleCtrl">
        
         <ui-button
-            ng-click="dupa()"
-            class="btn-primary">
-            Dupa
+            label="{{ dupa }}"
+            icon="remove">
         </ui-button>
 
-        <ui-button
-            label="Dupa"
-            icon="filters"
-            variant="primary"
-            action="dupa()"
-        ></ui-button>
-
+        <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
