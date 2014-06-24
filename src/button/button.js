@@ -10,7 +10,6 @@ angular
         };
         var tag = 'button';
         var attrs = new uiUtils.Attrs({
-            'type': 'button',
             'class': 'btn'
         });
 
@@ -20,8 +19,8 @@ angular
             replace: true,
             template: function(tElement, tAttrs) {
                 var finalAttrs = attrs.concat(
-                    tAttrs.type && {
-                        'type': tAttrs.type
+                    {
+                        type: uiUtils.ifAttr(tAttrs.type, '', 'button')
                     },
                     tAttrs.variant && {
                         'class': tAttrs.variant.split(' ').map(function(variant) {
