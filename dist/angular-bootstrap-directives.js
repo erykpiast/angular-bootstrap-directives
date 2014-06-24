@@ -1,7 +1,7 @@
 // ### button.js >>
 
 angular
-    .module('angular-boostrap-directives.button', [ ])
+    .module('angular-bootstrap-directives.button', [ ])
     .directive('uiButton', function () {
         function Attrs(attrs) {
             angular.extend(this, attrs);
@@ -124,6 +124,7 @@ angular
         };
     });
 
+
 // ### << button.js
 
 
@@ -131,9 +132,10 @@ angular
 // ### main.js >>
 
 angular
-	.module('angular-boostrap-directives', [
-		'angular-boostrap-directives.button'
+	.module('angular-bootstrap-directives', [
+		'angular-bootstrap-directives.button'
 	]);
+
 
 // ### << main.js
 
