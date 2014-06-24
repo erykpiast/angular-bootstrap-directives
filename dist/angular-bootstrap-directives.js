@@ -36,9 +36,9 @@ angular
                     tag,
                     ' ' + finalAttrs,
                     '>',
-                    uiUtils.returnIf(tElement[0].childNodes.length, tElement[0].innerHTML),
                     uiUtils.returnIf(tAttrs.icon, '<i class="glyphicon glyphicon-' + tAttrs.icon + '"></i>'),
                     uiUtils.returnIf(tAttrs.label, '<span>' + tAttrs.label + '</span>'),
+                    uiUtils.returnIf(tElement[0].childNodes.length, tElement[0].innerHTML),
                     '</',
                     tag,
                     '>'
