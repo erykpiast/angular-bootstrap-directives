@@ -50,6 +50,16 @@ describe('button directive test', function () {
         delete $rootScope.label;
         delete $rootScope.icon;
     });
+
+    it('Should produce button with submit type', function() {
+        var element = $compile('<ui-button type="submit">Submit</ui-button>')($rootScope);
+
+        $rootScope.$digest();
+
+        expect(element[0].outerHTML).toBe('<button type="submit" class="btn ng-scope">' +
+            'Submit' +
+        '</button>');
+    });
 // << label and icon
 
 

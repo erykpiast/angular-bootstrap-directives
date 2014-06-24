@@ -20,6 +20,9 @@ angular
             replace: true,
             template: function(tElement, tAttrs) {
                 var finalAttrs = attrs.concat(
+                    tAttrs.type && {
+                        'type': tAttrs.type
+                    },
                     tAttrs.variant && {
                         'class': tAttrs.variant.split(' ').map(function(variant) {
                             return 'btn-' + variant;
@@ -34,9 +37,9 @@ angular
                     tag,
                     ' ' + finalAttrs,
                     '>',
-                    uiUtils.returnIf(tAttrs.icon, '<i class="glyphicon glyphicon-' + tAttrs.icon + '"></i>'),
-                    uiUtils.returnIf(tAttrs.label, '<span>' + tAttrs.label + '</span>'),
-                    uiUtils.returnIf(tElement[0].childNodes.length, tElement[0].innerHTML),
+                    uiUtils.ifAttr(tAttrs.icon, '<i class="glyphicon glyphicon-' + tAttrs.icon + '"></i>'),
+                    uiUtils.ifAttr(tAttrs.label, '<span>' + tAttrs.label + '</span>'),
+                    uiUtils.ifAttr(tElement[0].childNodes.length, tElement[0].innerHTML),
                     '</',
                     tag,
                     '>'
