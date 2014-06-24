@@ -1,4 +1,4 @@
 angular
-	.module('angular-boostrap-directives', [
-		'angular-boostrap-directives.button'
+	.module('angular-bootstrap-directives', [
+		'angular-bootstrap-directives.button'
 	]);
