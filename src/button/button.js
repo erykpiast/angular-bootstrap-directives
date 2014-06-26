@@ -17,6 +17,7 @@ angular
         return {
             restrict: 'E',
             replace: true,
+            priority: 999, // run before everything else except ng-repeat etc.
             template: function(tElement, tAttrs) {
                 var finalAttrs = attrs.concat(
                     {
