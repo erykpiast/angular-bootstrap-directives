@@ -10,7 +10,7 @@ module.exports = function (grunt) {
         config: {
             dist: 'dist',
             src: {
-                js: 'src/**/*.js'
+                js: [ 'src/**/*.js', '!src/**/*.spec.js' ]
             },
             spec: 'src/**/*.spec.js'
         },
@@ -26,6 +26,18 @@ module.exports = function (grunt) {
         },
         concat:{
             all: {
+                options: {
+                    process: function(src, filepath) {
+                        var filename = /\/([^\/]+$)/.exec(filepath)[1];
+
+                        return [
+                            '// ### ' + filename + ' >>',
+                            src,
+                            '// ### << ' + filename,
+                            '\n'
+                        ].join('\n\n');
+                    }
+                },
                 src: '<%= config.src.js %>',
                 dest: '<%= config.dist %>/<%= pkg.name %>.js'
             }

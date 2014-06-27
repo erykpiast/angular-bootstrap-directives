@@ -1,6 +1,6 @@
 {
   "name": "angular-bootstrap-directives",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "description": "Angular directives for Twitter Bootstrap components",
   "main": "gruntfile.js",
   "directories": {
