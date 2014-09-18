@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="angular-bootstrap-directives-example">
-    <head>
-        <meta charset="UTF-8">
-        <title>angular-boostrap-directives example page</title>
 
-        <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
+<head>
+    <meta charset="UTF-8">
+    <title>angular-boostrap-directives example page</title>
 
-        <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
-        <script type="text/javascript" src="../dist/angular-bootstrap-directives.js"></script>
-    </head>
-    <body ng-controller="exampleCtrl">
-       
-        <ui-button
-            label="{{ dupa }}"
-            icon="remove">
-        </ui-button>
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
 
-        <script type="text/javascript" src="main.js"></script>
-    </body>
+    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="../dist/angular-bootstrap-directives.js"></script>
+    <style>
+        .fade-in-out {
+            position: relative;
+        }
+
+        .fade-in-out.ng-enter, .fade-in-out.ng-leave {
+            transition: opacity .25s ease-out, margin-top .25s ease-out;
+        } 
+
+        .fade-in-out.ng-enter.fade-in-out.ng-enter-active, .fade-in-out.ng-leave {
+            opacity: 1;
+            margin-top: 0;
+        }
+
+        .fade-in-out.ng-leave.fade-in-out.ng-leave-active, .fade-in-out.ng-enter {
+            opacity: 0;
+            margin-top: -70px;
+        }
+    </style>
+</head>
+
+<body ng-controller="exampleCtrl">
+
+    <ui-button
+        label="{{ dupa }}"
+        icon="remove"
+        ng-click="addAlert()">
+    </ui-button>
+    <ui-alert
+        ng-repeat="alert in dupy"
+        type="{{ alert.type }}"
+        close="closeAlert($index)"
+        animation="fade-in-out">
+        {{ alert.msg }}
+    </ui-alert>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
 </html>

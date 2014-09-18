@@ -1,3 +1,36 @@
+// ### alert.js >>
+
+angular
+    .module('angular-bootstrap-directives.alert', ['ngAnimate'])
+    .directive('uiAlert', function() {
+        return {
+            restrict: 'E',
+            controller: 'uiAlertController',
+            transclude: true,
+            replace: true,
+            scope: {
+                type: '@',
+                close: '&',
+                animation: '@'
+            },
+            templateUrl: 'src/alert/alert.template.html'
+        };
+    })
+    .controller('uiAlertController', ['$scope', '$attrs',
+        function($scope, $attrs) {
+            $scope.closeable = 'close' in $attrs;
+
+            $scope.onClick = function() {
+                $scope.close();
+            };
+        }
+    ]);
+
+
+// ### << alert.js
+
+
+
 // ### button.js >>
 
 angular
@@ -19,6 +52,7 @@ angular
         return {
             restrict: 'E',
             replace: true,
+            priority: 999, // run before everything else except ng-repeat etc.
             template: function(tElement, tAttrs) {
                 var finalAttrs = attrs.concat(
                     {
@@ -60,7 +94,8 @@ angular
 
 angular
 	.module('angular-bootstrap-directives', [
-		'angular-bootstrap-directives.button'
+		'angular-bootstrap-directives.button',
+        'angular-bootstrap-directives.alert'
 	]);
 
 
@@ -159,5 +194,37 @@ angular
     });
 
 // ### << utils.js
+
+
+
+// ### templates.js >>
+
+angular.module('angular-bootstrap-directives').run(['$templateCache', function($templateCache) {
+  'use strict';
+
+  $templateCache.put('src/alert/alert.template.html',
+    "<div\n" +
+    "    class=\"alert {{ animation }}\"\n" +
+    "    ng-class=\"[\n" +
+    "        'alert-' + (type || 'warning'),\n" +
+    "        closeable ? 'alert-dismissable' : null\n" +
+    "    ]\"\n" +
+    "    role=\"alert\">\n" +
+    "    <button\n" +
+    "        ng-show=\"closeable\"\n" +
+    "        type=\"button\"\n" +
+    "        class=\"close\"\n" +
+    "        ng-click=\"onClick()\">\n" +
+    "        <span aria-hidden=\"true\">&times;</span>\n" +
+    "        <span class=\"sr-only\">Close</span>\n" +
+    "    </button>\n" +
+    "    <div ng-transclude></div>\n" +
+    "</div>"
+  );
+
+}]);
+
+
+// ### << templates.js
 
 
